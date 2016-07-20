@@ -6,8 +6,8 @@ data:extend({
 		icon = "__StrangeMatter__/graphics/technology/quantum-chromodynamics.png",
 		unit =
 		{
-		  -- count = 1000,
-		  count = 1,
+		  count = 1000,
+		  -- count = 1,
 		  ingredients =
 		  {
 			{"science-pack-1", 3},
@@ -27,7 +27,8 @@ data:extend({
 				type = "unlock-recipe",
 				recipe = "strange-matter-fabrication"
 			}			
-		}
+		},
+		order = "e-f-a"
 	},
 	{
 		type = "technology",
@@ -36,8 +37,8 @@ data:extend({
 		icon = "__StrangeMatter__/graphics/technology/artifact-synthesis.png",
 		unit = 
 		{
-			-- count = 5000,
-			count = 1,
+			count = 5000,
+			-- count = 1,
 			ingredients =
 			{
 				{"science-pack-1", 1},
@@ -52,7 +53,8 @@ data:extend({
 				type = "unlock-recipe",
 				recipe = "artifact-synthesis"
 			}
-		}
+		},
+		order = "e-f-b"
 	},
 	{
 		type = "technology",
@@ -61,8 +63,8 @@ data:extend({
 		icon = "__StrangeMatter__/graphics/technology/wood-synthesis.png",
 		unit = 
 		{
-			-- count = 300,
-			count = 1,
+			count = 300,
+			-- count = 1,
 			ingredients = 
 			{
 				{"science-pack-1", 1},
@@ -76,7 +78,8 @@ data:extend({
 				type = "unlock-recipe",
 				recipe = "wood-synthesis"
 			}
-		}
+		},
+		order = "e-f-c"
 	},
 	{
 		type = "technology",
@@ -85,8 +88,8 @@ data:extend({
 		icon = "__StrangeMatter__/graphics/technology/stone-synthesis.png",
 		unit = 
 		{
-			-- count = 1000,
-			count = 1,
+			count = 1000,
+			-- count = 1,
 			ingredients = 
 			{
 				{"alien-science-pack", 1},
@@ -102,7 +105,8 @@ data:extend({
 				type = "unlock-recipe",
 				recipe = "stone-synthesis"
 			}
-		}
+		},
+		order = "e-f-d"
 	},
 	{
 		type = "technology",
@@ -111,8 +115,8 @@ data:extend({
 		icon = "__StrangeMatter__/graphics/technology/coal-synthesis.png",
 		unit = 
 		{
-			-- count = 1200,
-			count = 1,
+			count = 1200,
+			-- count = 1,
 			ingredients = 
 			{
 				{"alien-science-pack", 1},
@@ -128,7 +132,8 @@ data:extend({
 				type = "unlock-recipe",
 				recipe = "coal-synthesis"
 			}
-		}
+		},
+		order = "e-f-e"
 	},
 	{
 		type = "technology",
@@ -137,8 +142,8 @@ data:extend({
 		icon = "__StrangeMatter__/graphics/technology/iron-synthesis.png",
 		unit = 
 		{
-			-- count = 1800,
-			count = 1,
+			count = 1800,
+			-- count = 1,
 			ingredients = 
 			{
 				{"alien-science-pack", 1},
@@ -154,7 +159,8 @@ data:extend({
 				type = "unlock-recipe",
 				recipe = "iron-synthesis"
 			}
-		}
+		},
+		order = "e-f-f"
 	},
 	{
 		type = "technology",
@@ -163,8 +169,8 @@ data:extend({
 		icon = "__StrangeMatter__/graphics/technology/copper-synthesis.png",
 		unit = 
 		{
-			-- count = 2200,
-			count = 1,
+			count = 2200,
+			-- count = 1,
 			ingredients = 
 			{
 				{"alien-science-pack", 1},
@@ -180,6 +186,7 @@ data:extend({
 				type = "unlock-recipe",
 				recipe = "copper-synthesis"
 			}
-		}
+		},
+		order = "e-f-g"
 	}
 })

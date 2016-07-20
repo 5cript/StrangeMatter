@@ -2,11 +2,13 @@ data:extend({
     {
         type = "recipe",
         name = "matter-fabricator",
-        enabled = false,
+		enabled = "false",
         ingredients = 
         {
-            {"iron-plate", 1}, 
-            {"copper-plate", 1}
+            {"processing-unit", 250}, 
+            {"advanced-circuit", 400},
+			{"electric-engine-unit", 50},
+			{"productivity-module-3", 10}
         },
         result = "matter-fabricator"
     }

@@ -3,35 +3,35 @@ function fabricatorpipepictures()
   {
     north =
     {
-      filename = "__StrangeMatter__/graphics/entity/pipe-north.png",
+      filename = "__StrangeMatter__/graphics/entity/matter-fabricator/pipe-north-2.png",
       priority = "extra-high",
-      width = 31,
-      height = 14,
-      shift = {0.09375, 0.4375}
+      width = 29,
+      height = 12,
+      shift = {0.05, 0.3875}
     },
     east =
     {
-      filename = "__StrangeMatter__/graphics/entity/pipe-east.png",
+      filename = "__StrangeMatter__/graphics/entity/matter-fabricator/pipe-east.png",
       priority = "extra-high",
       width = 12,
       height = 27,
-      shift = {-0.71875, 0}
+      shift = {-0.64875, 0.03}
     },
     south =
     {
-      filename = "__StrangeMatter__/graphics/entity/pipe-south.png",
+      filename = "__StrangeMatter__/graphics/entity/matter-fabricator/pipe-south.png",
       priority = "extra-high",
       width = 41,
       height = 24,
-      shift = {0.0625, -1}
+      shift = {0.0342, -0.838}
     },
     west =
     {
-      filename = "__StrangeMatter__/graphics/entity/pipe-west.png",
+      filename = "__StrangeMatter__/graphics/entity/matter-fabricator/pipe-west.png",
       priority = "extra-high",
       width = 11,
       height = 35,
-      shift = {0.78125, 0.03125}
+      shift = {0.67, 0.138}
     }
   }
 end
@@ -48,6 +48,7 @@ data:extend(
 		corpse = "big-remnants",
 		dying_explosion = "medium-explosion",
 		max_health = 300,
+		enabled = false,
 		
 		-- Bounding Boxes
 		collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
@@ -61,7 +62,7 @@ data:extend(
 		-- mining_power = 2,	
 		
 		-- As "assembling-machine"
-		crafting_speed = 1.,
+		crafting_speed = 5.,
 		crafting_categories = {"strange-matter-crafting"},
 		-- crafting_categories = {"crafting", "advanced-crafting", "crafting-with-fluid"},
 		ingredient_count = 1,
@@ -112,7 +113,7 @@ data:extend(
 		-- Texture and Animation
 		animation =
 		{
-			filename = "__StrangeMatter__/graphics/entity/matter-fabricator.png",
+			filename = "__StrangeMatter__/graphics/entity/matter-fabricator/matter-fabricator.png",
 			priority = "high",
 			width = 125,
 			height = 100,
