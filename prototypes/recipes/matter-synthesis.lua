@@ -3,7 +3,7 @@ data:extend({
 		type = "recipe",
 		name = "wood-synthesis",
 		energy_required = 1,
-		enabled = true,
+		enabled = false,
 		category = "crafting-with-fluid",
 		ingredients =
 		{
@@ -16,7 +16,7 @@ data:extend({
 		type = "recipe",
 		name = "stone-synthesis",
 		energy_required = 1,
-		enabled = true,
+		enabled = false,
 		category = "crafting-with-fluid",
 		ingredients =
 		{
@@ -30,7 +30,7 @@ data:extend({
 		type = "recipe",
 		name = "coal-synthesis",
 		energy_required = 1,
-		enabled = true,
+		enabled = false,
 		category = "crafting-with-fluid",
 		ingredients =
 		{
@@ -44,7 +44,7 @@ data:extend({
 		type = "recipe",
 		name = "copper-synthesis",
 		energy_required = 1,
-		enabled = true,
+		enabled = false,
 		category = "crafting-with-fluid",
 		ingredients =
 		{
@@ -58,7 +58,7 @@ data:extend({
 		type = "recipe",
 		name = "iron-synthesis",
 		energy_required = 1,
-		enabled = true,
+		enabled = false,
 		category = "crafting-with-fluid",
 		ingredients =
 		{
@@ -72,7 +72,7 @@ data:extend({
 		type = "recipe",
 		name = "artifact-synthesis",
 		energy_required = 1,
-		enabled = true,
+		enabled = false,
 		category = "crafting-with-fluid",
 		ingredients =
 		{

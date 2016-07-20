@@ -61,7 +61,7 @@ data:extend(
 		-- mining_power = 2,	
 		
 		-- As "assembling-machine"
-		crafting_speed = 10.,
+		crafting_speed = 1.,
 		crafting_categories = {"strange-matter-crafting"},
 		-- crafting_categories = {"crafting", "advanced-crafting", "crafting-with-fluid"},
 		ingredient_count = 1,
@@ -70,11 +70,11 @@ data:extend(
 		energy_source =
 		{
 			type = "electric",
-			usage_priority = "terciary",
+			usage_priority = "secondary-input",
 			-- will produce this much * energy pollution units per tick
 			emissions = 0.01 / 100.
 		},
-		energy_usage = "2000MW",	
+		energy_usage = "100MW",	
 		
 		-- Sounds
 		open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
@@ -105,7 +105,7 @@ data:extend(
 		-- Modules
 		module_specification =
 		{
-			module_slots = 4
+			module_slots = 1
 		},
 		allowed_effects = {"speed", "productivity", "pollution"},
 		

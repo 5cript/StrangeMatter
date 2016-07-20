@@ -2,7 +2,7 @@ data:extend({
     {
         type = "recipe",
         name = "matter-fabricator",
-        enabled = "true",
+        enabled = false,
         ingredients = 
         {
             {"iron-plate", 1}, 

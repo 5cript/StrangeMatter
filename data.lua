@@ -13,3 +13,6 @@ require("prototypes.item")
 
 -- Entities
 require("prototypes.entity")
+
+-- Technology
+require("prototypes.technology.technology")

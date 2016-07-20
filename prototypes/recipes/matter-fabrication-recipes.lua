@@ -4,7 +4,7 @@ data:extend(
 		type = "recipe",
 		name = "strange-matter-fabrication",
 		category = "strange-matter-crafting",
-		enabled = true,
+		enabled = false,
 		energy_required = 1,
 		ingredients=
 		{
