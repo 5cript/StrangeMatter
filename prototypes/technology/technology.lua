@@ -2,7 +2,7 @@ data:extend({
 	{
 		type = "technology",
 		name = "quantum-chromodynamics",
-		prerequisites = {"alien-technology", "advanced-oil-processing", "speed-module-3"},
+		prerequisites = {"alien-technology", "advanced-oil-processing", "productivity-module"},
 		icon = "__StrangeMatter__/graphics/technology/quantum-chromodynamics.png",
 		unit =
 		{

@@ -5,10 +5,10 @@ data:extend({
 		enabled = "false",
         ingredients = 
         {
-            {"processing-unit", 250}, 
-            {"advanced-circuit", 400},
+            {"processing-unit", 280}, 
+            {"advanced-circuit", 430},
 			{"electric-engine-unit", 50},
-			{"productivity-module-3", 10}
+			{"productivity-module", 200}
         },
         result = "matter-fabricator"
     }

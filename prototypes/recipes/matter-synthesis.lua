@@ -7,7 +7,7 @@ data:extend({
 		category = "crafting-with-fluid",
 		ingredients =
 		{
-			{type="fluid", name="strange-matter", amount=1}
+			{type="fluid", name="strange-matter", amount=.5}
 		},
 		subgroup = "synthesis",
 		result= "raw-wood"
@@ -20,7 +20,7 @@ data:extend({
 		category = "crafting-with-fluid",
 		ingredients =
 		{
-			{type="fluid", name="strange-matter", amount=3}
+			{type="fluid", name="strange-matter", amount=1}
 		},
 		subgroup = "synthesis",
 		order = "a[wood-synthesis]",
@@ -34,7 +34,7 @@ data:extend({
 		category = "crafting-with-fluid",
 		ingredients =
 		{
-			{type="fluid", name="strange-matter", amount=2}
+			{type="fluid", name="strange-matter", amount=1.6}
 		},
 		subgroup = "synthesis",
 		order = "a[stone-synthesis]",
@@ -48,7 +48,7 @@ data:extend({
 		category = "crafting-with-fluid",
 		ingredients =
 		{
-			{type="fluid", name="strange-matter", amount=2}
+			{type="fluid", name="strange-matter", amount=1.6}
 		},
 		subgroup = "synthesis",
 		order = "a[coal-synthesis]",
@@ -62,7 +62,7 @@ data:extend({
 		category = "crafting-with-fluid",
 		ingredients =
 		{
-			{type="fluid", name="strange-matter", amount=2}
+			{type="fluid", name="strange-matter", amount=1.6}
 		},
 		subgroup = "synthesis",
 		order = "a[copper-synthesis]",
@@ -76,7 +76,7 @@ data:extend({
 		category = "crafting-with-fluid",
 		ingredients =
 		{
-			{type="fluid", name="strange-matter", amount=2000}
+			{type="fluid", name="strange-matter", amount=1600}
 		},
 		subgroup = "synthesis",
 		order = "a[iron-synthesis]",
