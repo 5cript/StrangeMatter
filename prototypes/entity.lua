@@ -106,7 +106,8 @@ data:extend(
 		-- Modules
 		module_specification =
 		{
-			module_slots = 1
+			-- module_slots = 1
+			module_slots = 0
 		},
 		allowed_effects = {"speed", "productivity", "pollution"},
 		
