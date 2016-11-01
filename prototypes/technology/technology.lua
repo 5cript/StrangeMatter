@@ -25,7 +25,42 @@ data:extend({
 			{
 				type = "unlock-recipe",
 				recipe = "strange-matter-fabrication"
-			}			
+			}		
+		},
+		order = "e-f-a"
+	},
+	{
+		type = "technology",
+		name = "matter-stabilisation",
+		prerequisites = {"quantum-chromodynamics"},
+		icon = "__StrangeMatter__/graphics/technology/matter-stabilisation.png",
+		unit =
+		{
+		  count = 1000,
+		  -- count = 1,
+		  ingredients =
+		  {
+			{"alien-science-pack", 1},
+			{"science-pack-1", 1},
+			{"science-pack-2", 1},
+			{"science-pack-3", 1}
+		  },
+		  time = 45
+		},
+		effects =
+		{
+			{
+				type = "unlock-recipe",
+				recipe = "matter-fabricator-mk2"
+			},
+			{
+				type = "unlock-recipe",
+				recipe = "asmf"
+			}	,
+			{
+				type = "unlock-recipe",
+				recipe = "matter-liquification"
+			}		
 		},
 		order = "e-f-a"
 	},
