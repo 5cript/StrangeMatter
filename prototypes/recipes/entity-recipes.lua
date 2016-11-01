@@ -11,5 +11,16 @@ data:extend({
 			{"productivity-module", 200}
         },
         result = "matter-fabricator"
+    },
+    {
+        type = "recipe",
+        name = "matter-fabricator-mk2",
+		enabled = "false",
+        ingredients = 
+        {
+            {"matter-fabricator", 10},
+            {"processing-unit", 20}
+        },
+        result = "matter-fabricator-mk2"
     }
 })
