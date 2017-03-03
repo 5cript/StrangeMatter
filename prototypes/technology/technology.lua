@@ -239,8 +239,8 @@ data:extend({
 		icon = "__StrangeMatter__/graphics/technology/oil-synthesis.png",
 		unit = 
 		{
-			-- count = 800,
-			count = 1,
+			count = 800,
+			-- count = 1,
 			ingredients = 
 			{
 				{"science-pack-1", 1},
@@ -264,8 +264,8 @@ data:extend({
 		icon = "__StrangeMatter__/graphics/technology/heavy-oil-synthesis.png",
 		unit = 
 		{
-			-- count = 1000,
-			count = 1,
+			count = 1000,
+			-- count = 1,
 			ingredients = 
 			{
 				{"science-pack-1", 1},
@@ -290,8 +290,8 @@ data:extend({
 		icon = "__StrangeMatter__/graphics/technology/light-oil-synthesis.png",
 		unit = 
 		{
-			-- count = 1200,
-			count = 1,
+			count = 1200,
+			-- count = 1,
 			ingredients = 
 			{
 				{"science-pack-1", 1},
@@ -316,8 +316,8 @@ data:extend({
 		icon = "__StrangeMatter__/graphics/technology/petroleum-gas-synthesis.png",
 		unit = 
 		{
-			-- count = 750,
-			count = 1,
+			count = 750,
+			-- count = 1,
 			ingredients = 
 			{
 				{"science-pack-1", 2},
@@ -343,8 +343,8 @@ data:extend({
 		icon = "__StrangeMatter__/graphics/technology/sulfuric-acid-synthesis.png",
 		unit = 
 		{
-			-- count = 1000,
-			count = 1,
+			count = 1000,
+			-- count = 1,
 			ingredients = 
 			{
 				{"science-pack-1", 2},
