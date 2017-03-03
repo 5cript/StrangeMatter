@@ -31,5 +31,15 @@ data:extend(
 		enabled = true,
 		order = "b[solid-strange-matter]",
 		stack_size = 50
+	},
+	{
+		type = "item",
+		name = "strange-matter-barrel",
+		icon = "__StrangeMatter__/graphics/icons/fluid/strange-matter-barrel.png",
+		flags = {"goes-to-main-inventory"},
+		subgroup = "barrel",
+		enabled = true,
+		order = "c[strange-matter-barrel]",
+		stack_size = 10
 	}
 })

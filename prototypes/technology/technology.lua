@@ -25,6 +25,14 @@ data:extend({
 			{
 				type = "unlock-recipe",
 				recipe = "strange-matter-fabrication"
+			},
+			{
+				type = "unlock-recipe",
+				recipe = "fill-strange-matter-barrel"
+			},
+			{
+				type = "unlock-recipe",
+				recipe = "empty-strange-matter-barrel"
 			}		
 		},
 		order = "e-f-a"
@@ -172,7 +180,7 @@ data:extend({
 	{
 		type = "technology",
 		name = "iron-synthesis",
-		prerequisites = {"coal-synthesis"},
+		prerequisites = {"stone-synthesis"},
 		icon = "__StrangeMatter__/graphics/technology/iron-synthesis.png",
 		unit = 
 		{
@@ -199,7 +207,7 @@ data:extend({
 	{
 		type = "technology",
 		name = "copper-synthesis",
-		prerequisites = {"iron-synthesis"},
+		prerequisites = {"stone-synthesis"},
 		icon = "__StrangeMatter__/graphics/technology/copper-synthesis.png",
 		unit = 
 		{
@@ -222,5 +230,137 @@ data:extend({
 			}
 		},
 		order = "e-f-g"
+	},
+	-- LIQUID TECHNOLOGY --
+	{
+		type = "technology",
+		name = "oil-synthesis",
+		prerequisites = {"quantum-chromodynamics"},
+		icon = "__StrangeMatter__/graphics/technology/oil-synthesis.png",
+		unit = 
+		{
+			-- count = 800,
+			count = 1,
+			ingredients = 
+			{
+				{"science-pack-1", 1},
+				{"science-pack-2", 1}
+			},
+			time = 45
+		},
+		effects =
+		{
+			{
+				type = "unlock-recipe",
+				recipe = "oil-synthesis"
+			}
+		},
+		order = "e-g-a"
+	},
+	{
+		type = "technology",
+		name = "heavy-oil-synthesis",
+		prerequisites = {"oil-synthesis"},
+		icon = "__StrangeMatter__/graphics/technology/heavy-oil-synthesis.png",
+		unit = 
+		{
+			-- count = 1000,
+			count = 1,
+			ingredients = 
+			{
+				{"science-pack-1", 1},
+				{"science-pack-2", 1},
+				{"science-pack-3", 1}
+			},
+			time = 45
+		},
+		effects =
+		{
+			{
+				type = "unlock-recipe",
+				recipe = "heavy-oil-synthesis"
+			}
+		},
+		order = "e-g-b"
+	},
+	{
+		type = "technology",
+		name = "light-oil-synthesis",
+		prerequisites = {"oil-synthesis"},
+		icon = "__StrangeMatter__/graphics/technology/light-oil-synthesis.png",
+		unit = 
+		{
+			-- count = 1200,
+			count = 1,
+			ingredients = 
+			{
+				{"science-pack-1", 1},
+				{"science-pack-2", 1},
+				{"science-pack-3", 1}
+			},
+			time = 45
+		},
+		effects =
+		{
+			{
+				type = "unlock-recipe",
+				recipe = "light-oil-synthesis"
+			}
+		},
+		order = "e-g-c"
+	},
+	{
+		type = "technology",
+		name = "petroleum-gas-synthesis",
+		prerequisites = {"oil-synthesis"},
+		icon = "__StrangeMatter__/graphics/technology/petroleum-gas-synthesis.png",
+		unit = 
+		{
+			-- count = 750,
+			count = 1,
+			ingredients = 
+			{
+				{"science-pack-1", 2},
+				{"science-pack-2", 2},
+				{"science-pack-3", 2},
+				{"alien-science-pack", 1}
+			},
+			time = 45
+		},
+		effects =
+		{
+			{
+				type = "unlock-recipe",
+				recipe = "petroleum-gas-synthesis"
+			}
+		},
+		order = "e-g-d"
+	},
+	{
+		type = "technology",
+		name = "sulfuric-acid-synthesis",
+		prerequisites = {"petroleum-gas-synthesis"},
+		icon = "__StrangeMatter__/graphics/technology/sulfuric-acid-synthesis.png",
+		unit = 
+		{
+			-- count = 1000,
+			count = 1,
+			ingredients = 
+			{
+				{"science-pack-1", 2},
+				{"science-pack-2", 2},
+				{"science-pack-3", 2},
+				{"alien-science-pack", 1}
+			},
+			time = 45
+		},
+		effects =
+		{
+			{
+				type = "unlock-recipe",
+				recipe = "sulfuric-acid-synthesis"
+			}
+		},
+		order = "e-g-e"
 	}
 })

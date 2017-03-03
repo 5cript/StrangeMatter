@@ -11,7 +11,7 @@ data:extend(
 		},
 		results=
 		{
-			{type="fluid", name="strange-matter", amount=0.1}
+			{type="fluid", name="strange-matter", amount=0.2}
 		},
 		subgroup = "fluid-recipes",
 		main_product= "",

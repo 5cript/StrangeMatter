@@ -68,6 +68,7 @@ data:extend({
 		order = "a[copper-synthesis]",
 		result= "iron-ore"
 	},
+	-- FLUID SYNTHESIS --
 	{
 		type = "recipe",
 		name = "artifact-synthesis",
@@ -81,5 +82,89 @@ data:extend({
 		subgroup = "synthesis",
 		order = "a[iron-synthesis]",
 		result= "alien-artifact"
+	},
+	{
+		type = "recipe",
+		name = "oil-synthesis",
+		energy_required = 1,
+		enabled = false,
+		category = "chemistry",
+		ingredients =
+		{
+			{type="fluid", name="strange-matter", amount=10}
+		},
+		results=
+		{
+			{type="fluid", name="crude-oil", amount=1}
+		},
+		subgroup = "synthesis"
+	},
+	{
+		type = "recipe",
+		name = "heavy-oil-synthesis",
+		energy_required = 1,
+		enabled = false,
+		category = "chemistry",
+		ingredients =
+		{
+			{type="fluid", name="strange-matter", amount=50}
+		},
+		results=
+		{
+			{type="fluid", name="heavy-oil", amount=1}
+		},
+		subgroup = "synthesis",
+		order = "a[oil-synthesis]"
+	},
+	{
+		type = "recipe",
+		name = "light-oil-synthesis",
+		energy_required = 1,
+		enabled = false,
+		category = "chemistry",
+		ingredients =
+		{
+			{type="fluid", name="strange-matter", amount=40}
+		},
+		results=
+		{
+			{type="fluid", name="light-oil", amount=1}
+		},
+		subgroup = "synthesis",
+		order = "a[heavy-oil-synthesis]"
+	},
+	{
+		type = "recipe",
+		name = "petroleum-gas-synthesis",
+		energy_required = 1,
+		enabled = false,
+		category = "chemistry",
+		ingredients =
+		{
+			{type="fluid", name="strange-matter", amount=35}
+		},
+		results=
+		{
+			{type="fluid", name="petroleum-gas", amount=1}
+		},
+		subgroup = "synthesis",
+		order = "a[light-oil-synthesis]"
+	},
+	{
+		type = "recipe",
+		name = "sulfuric-acid-synthesis",
+		energy_required = 1,
+		enabled = false,
+		category = "chemistry",
+		ingredients =
+		{
+			{type="fluid", name="strange-matter", amount=35}
+		},
+		results=
+		{
+			{type="fluid", name="sulfuric-acid", amount=1}
+		},
+		subgroup = "synthesis",
+		order = "a[petroleum-gas-synthesis]"
 	}
 })
