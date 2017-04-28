@@ -1,4 +1,4 @@
 require("recipes.entity-recipes")
 require("recipes.matter-fabrication-recipes")
 require("recipes.matter-synthesis")
-require("recipes.barreling")
+-- require("recipes.barreling")

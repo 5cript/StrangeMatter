@@ -68,21 +68,21 @@ data:extend({
 		order = "a[copper-synthesis]",
 		result= "iron-ore"
 	},
-	-- FLUID SYNTHESIS --
 	{
 		type = "recipe",
-		name = "artifact-synthesis",
+		name = "uranium-synthesis",
 		energy_required = 1,
 		enabled = false,
 		category = "crafting-with-fluid",
 		ingredients =
 		{
-			{type="fluid", name="strange-matter", amount=1500}
+			{type="fluid", name="strange-matter", amount=40}
 		},
 		subgroup = "synthesis",
 		order = "a[iron-synthesis]",
-		result= "alien-artifact"
+		result= "uranium-ore"
 	},
+	-- FLUID SYNTHESIS --
 	{
 		type = "recipe",
 		name = "oil-synthesis",

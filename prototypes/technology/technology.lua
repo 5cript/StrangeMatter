@@ -2,17 +2,20 @@ data:extend({
 	{
 		type = "technology",
 		name = "quantum-chromodynamics",
-		prerequisites = {"alien-technology", "advanced-oil-processing", "productivity-module"},
+		prerequisites = {"advanced-electronics-2", "advanced-material-processing-2"},
 		icon = "__StrangeMatter__/graphics/technology/quantum-chromodynamics.png",
+		icon_size = 64,
 		unit =
 		{
 		  count = 1000,
 		  -- count = 1,
 		  ingredients =
 		  {
-			{"science-pack-1", 3},
-			{"science-pack-2", 2},
-			{"science-pack-3", 1}
+			{"science-pack-1", 1},
+			{"science-pack-2", 1},
+			{"science-pack-3", 1},
+			{"production-science-pack", 1},
+			{"high-tech-science-pack", 3}
 		  },
 		  time = 45
 		},
@@ -42,16 +45,18 @@ data:extend({
 		name = "matter-stabilisation",
 		prerequisites = {"quantum-chromodynamics"},
 		icon = "__StrangeMatter__/graphics/technology/matter-stabilisation.png",
+		icon_size = 64,
 		unit =
 		{
 		  count = 1000,
 		  -- count = 1,
 		  ingredients =
 		  {
-			{"alien-science-pack", 1},
 			{"science-pack-1", 1},
 			{"science-pack-2", 1},
-			{"science-pack-3", 1}
+			{"science-pack-3", 1},
+			{"production-science-pack", 1},
+			{"high-tech-science-pack", 3}
 		  },
 		  time = 45
 		},
@@ -74,35 +79,10 @@ data:extend({
 	},
 	{
 		type = "technology",
-		name = "artifact-synthesis",
-		prerequisites = {"quantum-chromodynamics"},
-		icon = "__StrangeMatter__/graphics/technology/artifact-synthesis.png",
-		unit = 
-		{
-			count = 5000,
-			-- count = 1,
-			ingredients =
-			{
-				{"science-pack-1", 1},
-				{"science-pack-2", 1},
-				{"science-pack-3", 1},
-			},
-			time = 15
-		},
-		effects =
-		{
-			{
-				type = "unlock-recipe",
-				recipe = "artifact-synthesis"
-			}
-		},
-		order = "e-f-b"
-	},
-	{
-		type = "technology",
 		name = "wood-synthesis",
 		prerequisites = {"quantum-chromodynamics"},
 		icon = "__StrangeMatter__/graphics/technology/wood-synthesis.png",
+		icon_size = 64,
 		unit = 
 		{
 			count = 300,
@@ -128,13 +108,14 @@ data:extend({
 		name = "stone-synthesis",
 		prerequisites = {"wood-synthesis"},
 		icon = "__StrangeMatter__/graphics/technology/stone-synthesis.png",
+		icon_size = 64,
 		unit = 
 		{
 			count = 1000,
 			-- count = 1,
 			ingredients = 
 			{
-				{"alien-science-pack", 1},
+				{"high-tech-science-pack", 1},
 				{"science-pack-1", 2},
 				{"science-pack-2", 2},
 				{"science-pack-3", 2}
@@ -155,13 +136,14 @@ data:extend({
 		name = "coal-synthesis",
 		prerequisites = {"stone-synthesis"},
 		icon = "__StrangeMatter__/graphics/technology/coal-synthesis.png",
+		icon_size = 64,
 		unit = 
 		{
 			count = 1200,
 			-- count = 1,
 			ingredients = 
 			{
-				{"alien-science-pack", 1},
+				{"high-tech-science-pack", 1},
 				{"science-pack-1", 2},
 				{"science-pack-2", 2},
 				{"science-pack-3", 2}
@@ -182,13 +164,14 @@ data:extend({
 		name = "iron-synthesis",
 		prerequisites = {"stone-synthesis"},
 		icon = "__StrangeMatter__/graphics/technology/iron-synthesis.png",
+		icon_size = 64,
 		unit = 
 		{
 			count = 1800,
 			-- count = 1,
 			ingredients = 
 			{
-				{"alien-science-pack", 1},
+				{"high-tech-science-pack", 1},
 				{"science-pack-1", 2},
 				{"science-pack-2", 2},
 				{"science-pack-3", 2}
@@ -209,13 +192,14 @@ data:extend({
 		name = "copper-synthesis",
 		prerequisites = {"stone-synthesis"},
 		icon = "__StrangeMatter__/graphics/technology/copper-synthesis.png",
+		icon_size = 64,
 		unit = 
 		{
 			count = 2200,
 			-- count = 1,
 			ingredients = 
 			{
-				{"alien-science-pack", 1},
+				{"high-tech-science-pack", 1},
 				{"science-pack-1", 2},
 				{"science-pack-2", 2},
 				{"science-pack-3", 2}
@@ -231,12 +215,41 @@ data:extend({
 		},
 		order = "e-f-g"
 	},
+	{
+		type = "technology",
+		name = "uranium-synthesis",
+		prerequisites = {"stone-synthesis"},
+		icon = "__StrangeMatter__/graphics/technology/uranium-synthesis.png",
+		icon_size = 64,
+		unit = 
+		{
+			count = 2200,
+			-- count = 1,
+			ingredients = 
+			{
+				{"high-tech-science-pack", 2},
+				{"science-pack-1", 1},
+				{"science-pack-2", 1},
+				{"science-pack-3", 1}
+			},
+			time = 30
+		},
+		effects =
+		{
+			{
+				type = "unlock-recipe",
+				recipe = "uranium-synthesis"
+			}
+		},
+		order = "e-f-g"
+	},
 	-- LIQUID TECHNOLOGY --
 	{
 		type = "technology",
 		name = "oil-synthesis",
 		prerequisites = {"quantum-chromodynamics"},
 		icon = "__StrangeMatter__/graphics/technology/oil-synthesis.png",
+		icon_size = 64,
 		unit = 
 		{
 			count = 800,
@@ -262,6 +275,7 @@ data:extend({
 		name = "heavy-oil-synthesis",
 		prerequisites = {"oil-synthesis"},
 		icon = "__StrangeMatter__/graphics/technology/heavy-oil-synthesis.png",
+		icon_size = 64,
 		unit = 
 		{
 			count = 1000,
@@ -288,6 +302,7 @@ data:extend({
 		name = "light-oil-synthesis",
 		prerequisites = {"oil-synthesis"},
 		icon = "__StrangeMatter__/graphics/technology/light-oil-synthesis.png",
+		icon_size = 64,
 		unit = 
 		{
 			count = 1200,
@@ -314,6 +329,7 @@ data:extend({
 		name = "petroleum-gas-synthesis",
 		prerequisites = {"oil-synthesis"},
 		icon = "__StrangeMatter__/graphics/technology/petroleum-gas-synthesis.png",
+		icon_size = 64,
 		unit = 
 		{
 			count = 750,
@@ -323,7 +339,7 @@ data:extend({
 				{"science-pack-1", 2},
 				{"science-pack-2", 2},
 				{"science-pack-3", 2},
-				{"alien-science-pack", 1}
+				{"high-tech-science-pack", 1}
 			},
 			time = 45
 		},
@@ -341,6 +357,7 @@ data:extend({
 		name = "sulfuric-acid-synthesis",
 		prerequisites = {"petroleum-gas-synthesis"},
 		icon = "__StrangeMatter__/graphics/technology/sulfuric-acid-synthesis.png",
+		icon_size = 64,
 		unit = 
 		{
 			count = 1000,
@@ -350,7 +367,7 @@ data:extend({
 				{"science-pack-1", 2},
 				{"science-pack-2", 2},
 				{"science-pack-3", 2},
-				{"alien-science-pack", 1}
+				{"high-tech-science-pack", 1}
 			},
 			time = 45
 		},
