@@ -95,7 +95,7 @@ data:extend({
 		},
 		results=
 		{
-			{type="fluid", name="crude-oil", amount=1}
+			{type="fluid", name="crude-oil", amount=10}
 		},
 		subgroup = "synthesis"
 	},
@@ -111,7 +111,7 @@ data:extend({
 		},
 		results=
 		{
-			{type="fluid", name="heavy-oil", amount=1}
+			{type="fluid", name="heavy-oil", amount=10}
 		},
 		subgroup = "synthesis",
 		order = "a[oil-synthesis]"
@@ -128,7 +128,7 @@ data:extend({
 		},
 		results=
 		{
-			{type="fluid", name="light-oil", amount=1}
+			{type="fluid", name="light-oil", amount=10}
 		},
 		subgroup = "synthesis",
 		order = "a[heavy-oil-synthesis]"
@@ -145,7 +145,7 @@ data:extend({
 		},
 		results=
 		{
-			{type="fluid", name="petroleum-gas", amount=1}
+			{type="fluid", name="petroleum-gas", amount=10}
 		},
 		subgroup = "synthesis",
 		order = "a[light-oil-synthesis]"
@@ -162,7 +162,7 @@ data:extend({
 		},
 		results=
 		{
-			{type="fluid", name="sulfuric-acid", amount=1}
+			{type="fluid", name="sulfuric-acid", amount=10}
 		},
 		subgroup = "synthesis",
 		order = "a[petroleum-gas-synthesis]"
