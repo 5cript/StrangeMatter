@@ -8,6 +8,7 @@ data:extend({
         order = "b[fill-strange-matter-barrel]",
         enabled = false,
         icon = "__StrangeMatter__/graphics/icons/fluid/fill-strange-matter-barrel.png",
+        icon_size = 32,
         ingredients =
         {
             {type="fluid", name="strange-matter", amount=50},
@@ -27,6 +28,7 @@ data:extend({
         order = "c[empty-strange-matter-barrel]",
         enabled = false,
         icon = "__StrangeMatter__/graphics/icons/fluid/empty-strange-matter-barrel.png",
+        icon_size = 32,
         ingredients =
         {
             {type="item", name="strange-matter-barrel", amount=1}

@@ -15,7 +15,8 @@ data:extend(
 		},
 		subgroup = "fluid-recipes",
 		main_product= "",
-		icon = "__StrangeMatter__/graphics/icons/fluid/matter.png"
+		icon = "__StrangeMatter__/graphics/icons/fluid/matter.png",
+        icon_size = 32
 	},	
 	{
 		type = "recipe",
@@ -32,7 +33,8 @@ data:extend(
 		},
 		subgroup = "fluid-recipes",
 		main_product= "",
-		icon = "__StrangeMatter__/graphics/icons/solid-strange-matter.png"
+		icon = "__StrangeMatter__/graphics/icons/solid-strange-matter.png",
+        icon_size = 32
 	},
 	{
 		type = "recipe",
@@ -51,6 +53,7 @@ data:extend(
 		subgroup = "fluid-recipes",
 		main_product= "",
 		order = "z[lubricant]",
-		icon = "__StrangeMatter__/graphics/icons/fluid/matter_plus.png"
+		icon = "__StrangeMatter__/graphics/icons/fluid/matter_plus.png",
+        icon_size = 32
 	}
 })

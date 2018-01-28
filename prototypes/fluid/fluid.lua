@@ -9,6 +9,7 @@ data:extend(
 		flow_color = {r=0.36949, g=0.034375, b=0.35233},
 		max_temperature = 100,
 		icon = "__StrangeMatter__/graphics/icons/fluid/matter.png",
+        icon_size = 32,
 		pressure_to_speed_ratio = 0.4,
 		flow_to_energy_ratio = 0.59,
 		order = "a[fluid]-b[strange-matter]"
