@@ -46,7 +46,7 @@ data:extend({
 		icon_size = 64,
 		unit =
 		{
-		  count = 2500,
+		  count = 3500,
 		  -- count = 1,
 		  ingredients =
 		  {
@@ -164,7 +164,7 @@ data:extend({
 		icon_size = 64,
 		unit = 
 		{
-			count = 1000,
+			count = 2000,
 			-- count = 1,
 			ingredients = 
 			{
@@ -193,7 +193,7 @@ data:extend({
 		icon_size = 64,
 		unit = 
 		{
-			count = 1200,
+			count = 2200,
 			-- count = 1,
 			ingredients = 
 			{
@@ -222,7 +222,7 @@ data:extend({
 		icon_size = 64,
 		unit = 
 		{
-			count = 2200,
+			count = 3000,
 			-- count = 1,
 			ingredients = 
 			{
