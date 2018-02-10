@@ -14,10 +14,8 @@ data:extend({
 			{"science-pack-1", 1},
 			{"science-pack-2", 1},
 			{"science-pack-3", 1},
-			{"production-science-pack", 1},
-			{"high-tech-science-pack", 3}
 		  },
-		  time = 45
+		  time = 60
 		},
 		effects =
 		{
@@ -48,7 +46,7 @@ data:extend({
 		icon_size = 64,
 		unit =
 		{
-		  count = 1000,
+		  count = 2500,
 		  -- count = 1,
 		  ingredients =
 		  {
@@ -56,7 +54,7 @@ data:extend({
 			{"science-pack-2", 1},
 			{"science-pack-3", 1},
 			{"production-science-pack", 1},
-			{"high-tech-science-pack", 3}
+			{"high-tech-science-pack", 2}
 		  },
 		  time = 45
 		},
@@ -111,14 +109,13 @@ data:extend({
 		icon_size = 64,
 		unit = 
 		{
-			count = 1000,
+			count = 400,
 			-- count = 1,
 			ingredients = 
 			{
-				{"high-tech-science-pack", 1},
-				{"science-pack-1", 2},
-				{"science-pack-2", 2},
-				{"science-pack-3", 2}
+				{"science-pack-1", 1},
+				{"science-pack-2", 1},
+				{"science-pack-3", 1}
 			},
 			time = 30
 		},
@@ -139,14 +136,14 @@ data:extend({
 		icon_size = 64,
 		unit = 
 		{
-			count = 1200,
+			count = 800,
 			-- count = 1,
 			ingredients = 
 			{
-				{"high-tech-science-pack", 1},
-				{"science-pack-1", 2},
-				{"science-pack-2", 2},
-				{"science-pack-3", 2}
+				{"science-pack-1", 1},
+				{"science-pack-2", 1},
+				{"science-pack-3", 1},
+				{"production-science-pack", 1}
 			},
 			time = 30
 		},
@@ -167,14 +164,15 @@ data:extend({
 		icon_size = 64,
 		unit = 
 		{
-			count = 1800,
+			count = 1000,
 			-- count = 1,
 			ingredients = 
 			{
 				{"high-tech-science-pack", 1},
-				{"science-pack-1", 2},
-				{"science-pack-2", 2},
-				{"science-pack-3", 2}
+				{"science-pack-1", 1},
+				{"science-pack-2", 1},
+				{"science-pack-3", 1},
+				{"production-science-pack", 1}
 			},
 			time = 30
 		},
@@ -195,14 +193,15 @@ data:extend({
 		icon_size = 64,
 		unit = 
 		{
-			count = 2200,
+			count = 1200,
 			-- count = 1,
 			ingredients = 
 			{
 				{"high-tech-science-pack", 1},
-				{"science-pack-1", 2},
-				{"science-pack-2", 2},
-				{"science-pack-3", 2}
+				{"science-pack-1", 1},
+				{"science-pack-2", 1},
+				{"science-pack-3", 1},
+				{"production-science-pack", 1}
 			},
 			time = 30
 		},
@@ -230,7 +229,10 @@ data:extend({
 				{"high-tech-science-pack", 2},
 				{"science-pack-1", 1},
 				{"science-pack-2", 1},
-				{"science-pack-3", 1}
+				{"science-pack-3", 1},
+				{"production-science-pack", 1},
+				{"space-science-pack", 1}
+				
 			},
 			time = 30
 		},
@@ -367,6 +369,7 @@ data:extend({
 				{"science-pack-1", 2},
 				{"science-pack-2", 2},
 				{"science-pack-3", 2},
+				{"production-science-pack", 1},
 				{"high-tech-science-pack", 1}
 			},
 			time = 45
