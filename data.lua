@@ -1,3 +1,8 @@
+-- If bobs ores are installed
+if mods["bobores"] then
+    require("prototypes.bobores")
+end
+
 -- Groups and Categories
 require("prototypes.categories.recipe-category")
 require("prototypes.group")
