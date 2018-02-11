@@ -10,7 +10,7 @@ data:extend(
 		enabled = false,
 		order = "b[matter-fabricator]",
 		place_result = "matter-fabricator",
-		stack_size = 10
+		stack_size = 20
 	},
 	{
 		type = "item",

@@ -101,7 +101,7 @@ data:extend(
 		-- mining_power = 2,	
 		
 		-- As "assembling-machine"
-		crafting_speed = 5.,
+		crafting_speed = .5,
 		crafting_categories = {"strange-matter-crafting"},
 		-- crafting_categories = {"crafting", "advanced-crafting", "crafting-with-fluid"},
 		ingredient_count = 1,
@@ -114,7 +114,7 @@ data:extend(
 			-- will produce this much * energy pollution units per tick
 			emissions = 0.01 / 100.
 		},
-		energy_usage = "100MW",	
+		energy_usage = "10MW",	
 		
 		-- Sounds
 		open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
@@ -145,10 +145,10 @@ data:extend(
 		-- Modules
 		module_specification =
 		{
-			-- module_slots = 1
+			--module_slots = 2
 			module_slots = 0
 		},
-		allowed_effects = {"speed", "productivity", "pollution"},
+		--allowed_effects = {"speed"},
 		
 		-- Texture and Animation
 		animation =
@@ -200,7 +200,7 @@ data:extend(
 		-- mining_power = 2,	
 		
 		-- As "assembling-machine"
-		crafting_speed = 5.,
+		crafting_speed = 1.1,
 		crafting_categories = {"asmc"},
 		-- crafting_categories = {"crafting", "advanced-crafting", "crafting-with-fluid"},
 		ingredient_count = 1,
@@ -244,10 +244,10 @@ data:extend(
 		-- Modules
 		module_specification =
 		{
-			-- module_slots = 1
+			--module_slots = 1
 			module_slots = 0
 		},
-		allowed_effects = {"speed", "productivity", "pollution"},
+		--allowed_effects = {"speed", "productivity", "consumption", "pollution"},
 		
 		-- Texture and Animation
 		animation =

@@ -41,7 +41,7 @@ data:extend(
 		name = "matter-liquification",
 		category = "chemistry",
 		enabled = false,
-		energy_required = 2,
+		energy_required = 12,
 		ingredients=
 		{
 			 {type="item", name="solid-strange-matter", amount=1}
