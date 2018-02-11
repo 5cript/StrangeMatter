@@ -10,7 +10,8 @@ data:extend({
 			{type="fluid", name="strange-matter", amount=1}
 		},
 		subgroup = "synthesis",
-		result= "bauxite-ore"
+		result= "bauxite-ore",
+		allow_as_intermediate = false
 	},
 	{
 		type = "recipe",
@@ -23,7 +24,8 @@ data:extend({
 			{type="fluid", name="strange-matter", amount=1.5}
 		},
 		subgroup = "synthesis",
-		result= "cobalt-ore"
+		result= "cobalt-ore",
+		allow_as_intermediate = false
 	},
 	{
 		type = "recipe",
@@ -36,7 +38,8 @@ data:extend({
 			{type="fluid", name="strange-matter", amount=2}
 		},
 		subgroup = "synthesis",
-		result= "gold-ore"
+		result= "gold-ore",
+		allow_as_intermediate = false
 	},
 	{
 		type = "recipe",
@@ -49,7 +52,8 @@ data:extend({
 			{type="fluid", name="strange-matter", amount=1}
 		},
 		subgroup = "synthesis",
-		result= "lead-ore"
+		result= "lead-ore",
+		allow_as_intermediate = false
 	},
 	{
 		type = "recipe",
@@ -62,7 +66,8 @@ data:extend({
 			{type="fluid", name="strange-matter", amount=1}
 		},
 		subgroup = "synthesis",
-		result= "nickel-ore"
+		result= "nickel-ore",
+		allow_as_intermediate = false
 	},
 	{
 		type = "recipe",
@@ -75,7 +80,8 @@ data:extend({
 			{type="fluid", name="strange-matter", amount=1}
 		},
 		subgroup = "synthesis",
-		result= "quartz"
+		result= "quartz",
+		allow_as_intermediate = false
 	},
 	{
 		type = "recipe",
@@ -88,7 +94,8 @@ data:extend({
 			{type="fluid", name="strange-matter", amount=2.5}
 		},
 		subgroup = "synthesis",
-		result= "rutile-ore"
+		result= "rutile-ore",
+		allow_as_intermediate = false
 	},
 	{
 		type = "recipe",
@@ -101,7 +108,8 @@ data:extend({
 			{type="fluid", name="strange-matter", amount=1}
 		},
 		subgroup = "synthesis",
-		result= "silver-ore"
+		result= "silver-ore",
+		allow_as_intermediate = false
 	},
 	{
 		type = "recipe",
@@ -114,7 +122,8 @@ data:extend({
 			{type="fluid", name="strange-matter", amount=1}
 		},
 		subgroup = "synthesis",
-		result= "thorium-ore"
+		result= "thorium-ore",
+		allow_as_intermediate = false
 	},
 	{
 		type = "recipe",
@@ -127,7 +136,8 @@ data:extend({
 			{type="fluid", name="strange-matter", amount=1}
 		},
 		subgroup = "synthesis",
-		result= "tin-ore"
+		result= "tin-ore",
+		allow_as_intermediate = false
 	},
 	{
 		type = "recipe",
@@ -140,7 +150,8 @@ data:extend({
 			{type="fluid", name="strange-matter", amount=1}
 		},
 		subgroup = "synthesis",
-		result= "tungsten-ore"
+		result= "tungsten-ore",
+		allow_as_intermediate = false
 	},
 	{
 		type = "recipe",
@@ -153,12 +164,13 @@ data:extend({
 			{type="fluid", name="strange-matter", amount=1}
 		},
 		subgroup = "synthesis",
-		result= "zinc-ore"
+		result= "zinc-ore",
+		allow_as_intermediate = false
 	},
 	{
 		type = "recipe",
 		name = "gem-ore-synthesis",
-		energy_required = 1,
+		energy_required = 3,
 		enabled = false,
 		category = "crafting-with-fluid",
 		ingredients =
@@ -166,6 +178,7 @@ data:extend({
 			{type="fluid", name="strange-matter", amount=5}
 		},
 		subgroup = "synthesis",
-		result= "gem-ore"
+		result= "gem-ore",
+		allow_as_intermediate = false
 	}
 })

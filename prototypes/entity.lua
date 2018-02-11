@@ -200,7 +200,7 @@ data:extend(
 		-- mining_power = 2,	
 		
 		-- As "assembling-machine"
-		crafting_speed = 1.1,
+		crafting_speed = 1.25,
 		crafting_categories = {"asmc"},
 		-- crafting_categories = {"crafting", "advanced-crafting", "crafting-with-fluid"},
 		ingredient_count = 1,

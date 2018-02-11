@@ -10,7 +10,8 @@ data:extend({
 			{type="fluid", name="strange-matter", amount=.2}
 		},
 		subgroup = "synthesis",
-		result= "raw-wood"
+		result= "raw-wood",
+		allow_as_intermediate = false
 	},
 	{
 		type = "recipe",
@@ -24,7 +25,8 @@ data:extend({
 		},
 		subgroup = "synthesis",
 		order = "a[wood-synthesis]",
-		result= "stone"
+		result= "stone",
+		allow_as_intermediate = false
 	},
 	{
 		type = "recipe",
@@ -38,7 +40,8 @@ data:extend({
 		},
 		subgroup = "synthesis",
 		order = "a[stone-synthesis]",
-		result= "coal"
+		result= "coal",
+		allow_as_intermediate = false
 	},
 	{
 		type = "recipe",
@@ -52,7 +55,8 @@ data:extend({
 		},
 		subgroup = "synthesis",
 		order = "a[coal-synthesis]",
-		result= "copper-ore"
+		result= "copper-ore",
+		allow_as_intermediate = false
 	},
 	{
 		type = "recipe",
@@ -66,21 +70,23 @@ data:extend({
 		},
 		subgroup = "synthesis",
 		order = "a[copper-synthesis]",
-		result= "iron-ore"
+		result= "iron-ore",
+		allow_as_intermediate = false
 	},
 	{
 		type = "recipe",
 		name = "uranium-synthesis",
-		energy_required = 1,
+		energy_required = 5,
 		enabled = false,
 		category = "crafting-with-fluid",
 		ingredients =
 		{
-			{type="fluid", name="strange-matter", amount=30}
+			{type="fluid", name="strange-matter", amount=10}
 		},
 		subgroup = "synthesis",
 		order = "a[iron-synthesis]",
-		result= "uranium-ore"
+		result= "uranium-ore",
+		allow_as_intermediate = false
 	},
 	-- FLUID SYNTHESIS --
 	{
