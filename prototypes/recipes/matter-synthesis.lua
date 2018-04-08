@@ -76,12 +76,12 @@ data:extend({
 	{
 		type = "recipe",
 		name = "uranium-synthesis",
-		energy_required = 5,
+		energy_required = 3,
 		enabled = false,
 		category = "crafting-with-fluid",
 		ingredients =
 		{
-			{type="fluid", name="strange-matter", amount=10}
+			{type="fluid", name="strange-matter", amount=20}
 		},
 		subgroup = "synthesis",
 		order = "a[iron-synthesis]",
