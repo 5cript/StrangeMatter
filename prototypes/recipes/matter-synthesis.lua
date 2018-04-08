@@ -81,7 +81,7 @@ data:extend({
 		category = "crafting-with-fluid",
 		ingredients =
 		{
-			{type="fluid", name="strange-matter", amount=20}
+			{type="fluid", name="strange-matter", amount=3}
 		},
 		subgroup = "synthesis",
 		order = "a[iron-synthesis]",
