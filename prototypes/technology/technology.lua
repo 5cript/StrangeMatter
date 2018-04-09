@@ -1,6 +1,6 @@
 local settings = settings["startup"]
 
-if not settings["strange-matter-cheap-research"] then
+if not settings["strange-matter-cheap-research"].value then
 	-- DEFAULT RECIPES
 	data:extend({
 		{
