@@ -1,3 +1,5 @@
+local factor = settings["startup"]["strange-matter-factor"].value
+
 data:extend(
 {
 	{
@@ -11,7 +13,7 @@ data:extend(
 		},
 		results=
 		{
-			{type="fluid", name="strange-matter", amount=0.2}
+			{type="fluid", name="strange-matter", amount=0.2 * factor}
 		},
 		subgroup = "fluid-recipes",
 		main_product= "",
@@ -48,7 +50,7 @@ data:extend(
 		},
 		results=
 		{
-			{type="fluid", name="strange-matter", amount=12}
+			{type="fluid", name="strange-matter", amount=12 * factor}
 		},
 		subgroup = "fluid-recipes",
 		main_product= "",
