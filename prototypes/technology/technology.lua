@@ -15,9 +15,9 @@ if not settings["strange-matter-cheap-research"].value then
 			-- count = 1,
 			ingredients =
 			{
-				{"science-pack-1", 1},
-				{"science-pack-2", 1},
-				{"science-pack-3", 1},
+				{"automation-science-pack", 1},
+				{"logistic-science-pack", 1},
+				{"chemical-science-pack", 1},
 			},
 			time = 60
 			},
@@ -54,11 +54,11 @@ if not settings["strange-matter-cheap-research"].value then
 			-- count = 1,
 			ingredients =
 			{
-				{"science-pack-1", 1},
-				{"science-pack-2", 1},
-				{"science-pack-3", 1},
+				{"automation-science-pack", 1},
+				{"logistic-science-pack", 1},
+				{"chemical-science-pack", 1},
 				{"production-science-pack", 1},
-				{"high-tech-science-pack", 2}
+				{"space-science-pack", 2}
 			},
 			time = 45
 			},
@@ -91,8 +91,8 @@ if not settings["strange-matter-cheap-research"].value then
 				-- count = 1,
 				ingredients = 
 				{
-					{"science-pack-1", 1},
-					{"science-pack-2", 2}
+					{"automation-science-pack", 1},
+					{"logistic-science-pack", 2}
 				},
 				time = 60
 			},
@@ -117,9 +117,9 @@ if not settings["strange-matter-cheap-research"].value then
 				-- count = 1,
 				ingredients = 
 				{
-					{"science-pack-1", 1},
-					{"science-pack-2", 1},
-					{"science-pack-3", 1}
+					{"automation-science-pack", 1},
+					{"logistic-science-pack", 1},
+					{"chemical-science-pack", 1}
 				},
 				time = 30
 			},
@@ -144,9 +144,9 @@ if not settings["strange-matter-cheap-research"].value then
 				-- count = 1,
 				ingredients = 
 				{
-					{"science-pack-1", 1},
-					{"science-pack-2", 1},
-					{"science-pack-3", 1},
+					{"automation-science-pack", 1},
+					{"logistic-science-pack", 1},
+					{"chemical-science-pack", 1},
 					{"production-science-pack", 1}
 				},
 				time = 30
@@ -172,10 +172,10 @@ if not settings["strange-matter-cheap-research"].value then
 				-- count = 1,
 				ingredients = 
 				{
-					{"high-tech-science-pack", 1},
-					{"science-pack-1", 1},
-					{"science-pack-2", 1},
-					{"science-pack-3", 1},
+					{"space-science-pack", 1},
+					{"automation-science-pack", 1},
+					{"logistic-science-pack", 1},
+					{"chemical-science-pack", 1},
 					{"production-science-pack", 1}
 				},
 				time = 30
@@ -201,10 +201,10 @@ if not settings["strange-matter-cheap-research"].value then
 				-- count = 1,
 				ingredients = 
 				{
-					{"high-tech-science-pack", 1},
-					{"science-pack-1", 1},
-					{"science-pack-2", 1},
-					{"science-pack-3", 1},
+					{"space-science-pack", 1},
+					{"automation-science-pack", 1},
+					{"logistic-science-pack", 1},
+					{"chemical-science-pack", 1},
 					{"production-science-pack", 1}
 				},
 				time = 30
@@ -230,10 +230,10 @@ if not settings["strange-matter-cheap-research"].value then
 				-- count = 1,
 				ingredients = 
 				{
-					{"high-tech-science-pack", 2},
-					{"science-pack-1", 1},
-					{"science-pack-2", 1},
-					{"science-pack-3", 1},
+					{"space-science-pack", 2},
+					{"automation-science-pack", 1},
+					{"logistic-science-pack", 1},
+					{"chemical-science-pack", 1},
 					{"production-science-pack", 1},
 					{"space-science-pack", 1}
 					
@@ -262,8 +262,8 @@ if not settings["strange-matter-cheap-research"].value then
 				-- count = 1,
 				ingredients = 
 				{
-					{"science-pack-1", 1},
-					{"science-pack-2", 1}
+					{"automation-science-pack", 1},
+					{"logistic-science-pack", 1}
 				},
 				time = 45
 			},
@@ -288,9 +288,9 @@ if not settings["strange-matter-cheap-research"].value then
 				-- count = 1,
 				ingredients = 
 				{
-					{"science-pack-1", 1},
-					{"science-pack-2", 1},
-					{"science-pack-3", 1}
+					{"automation-science-pack", 1},
+					{"logistic-science-pack", 1},
+					{"chemical-science-pack", 1}
 				},
 				time = 45
 			},
@@ -315,9 +315,9 @@ if not settings["strange-matter-cheap-research"].value then
 				-- count = 1,
 				ingredients = 
 				{
-					{"science-pack-1", 1},
-					{"science-pack-2", 1},
-					{"science-pack-3", 1}
+					{"automation-science-pack", 1},
+					{"logistic-science-pack", 1},
+					{"chemical-science-pack", 1}
 				},
 				time = 45
 			},
@@ -342,10 +342,10 @@ if not settings["strange-matter-cheap-research"].value then
 				-- count = 1,
 				ingredients = 
 				{
-					{"science-pack-1", 2},
-					{"science-pack-2", 2},
-					{"science-pack-3", 2},
-					{"high-tech-science-pack", 1}
+					{"automation-science-pack", 2},
+					{"logistic-science-pack", 2},
+					{"chemical-science-pack", 2},
+					{"space-science-pack", 1}
 				},
 				time = 45
 			},
@@ -370,11 +370,11 @@ if not settings["strange-matter-cheap-research"].value then
 				-- count = 1,
 				ingredients = 
 				{
-					{"science-pack-1", 2},
-					{"science-pack-2", 2},
-					{"science-pack-3", 2},
+					{"automation-science-pack", 2},
+					{"logistic-science-pack", 2},
+					{"chemical-science-pack", 2},
 					{"production-science-pack", 1},
-					{"high-tech-science-pack", 1}
+					{"space-science-pack", 1}
 				},
 				time = 45
 			},
@@ -403,9 +403,9 @@ else
 			  -- count = 1,
 			  ingredients =
 			  {
-				{"science-pack-1", 1},
-				{"science-pack-2", 1},
-				{"science-pack-3", 1},
+				{"automation-science-pack", 1},
+				{"logistic-science-pack", 1},
+				{"chemical-science-pack", 1},
 			  },
 			  time = 60
 			},
@@ -442,11 +442,11 @@ else
 			  -- count = 1,
 			  ingredients =
 			  {
-				{"science-pack-1", 1},
-				{"science-pack-2", 1},
-				{"science-pack-3", 1},
+				{"automation-science-pack", 1},
+				{"logistic-science-pack", 1},
+				{"chemical-science-pack", 1},
 				{"production-science-pack", 1},
-				{"high-tech-science-pack", 2}
+				{"space-science-pack", 2}
 			  },
 			  time = 45
 			},
@@ -479,8 +479,8 @@ else
 				-- count = 1,
 				ingredients = 
 				{
-					{"science-pack-1", 1},
-					{"science-pack-2", 2}
+					{"automation-science-pack", 1},
+					{"logistic-science-pack", 2}
 				},
 				time = 60
 			},
@@ -505,8 +505,8 @@ else
 				-- count = 1,
 				ingredients = 
 				{
-					{"science-pack-1", 1},
-					{"science-pack-2", 1}
+					{"automation-science-pack", 1},
+					{"logistic-science-pack", 1}
 				},
 				time = 30
 			},
@@ -531,9 +531,9 @@ else
 				-- count = 1,
 				ingredients = 
 				{
-					{"science-pack-1", 1},
-					{"science-pack-2", 1},
-					{"science-pack-3", 1},
+					{"automation-science-pack", 1},
+					{"logistic-science-pack", 1},
+					{"chemical-science-pack", 1},
 					{"production-science-pack", 1}
 				},
 				time = 30
@@ -559,9 +559,9 @@ else
 				-- count = 1,
 				ingredients = 
 				{
-					{"science-pack-1", 1},
-					{"science-pack-2", 1},
-					{"science-pack-3", 1},
+					{"automation-science-pack", 1},
+					{"logistic-science-pack", 1},
+					{"chemical-science-pack", 1},
 					{"production-science-pack", 1}
 				},
 				time = 30
@@ -587,9 +587,9 @@ else
 				-- count = 1,
 				ingredients = 
 				{
-					{"science-pack-1", 1},
-					{"science-pack-2", 1},
-					{"science-pack-3", 1},
+					{"automation-science-pack", 1},
+					{"logistic-science-pack", 1},
+					{"chemical-science-pack", 1},
 					{"production-science-pack", 1}
 				},
 				time = 30
@@ -615,11 +615,11 @@ else
 				-- count = 1,
 				ingredients = 
 				{
-					{"science-pack-1", 1},
-					{"science-pack-2", 1},
-					{"science-pack-3", 1},
+					{"automation-science-pack", 1},
+					{"logistic-science-pack", 1},
+					{"chemical-science-pack", 1},
 					{"production-science-pack", 1},
-					{"high-tech-science-pack", 1}
+					{"space-science-pack", 1}
 					
 				},
 				time = 30
@@ -646,8 +646,8 @@ else
 				-- count = 1,
 				ingredients = 
 				{
-					{"science-pack-1", 1},
-					{"science-pack-2", 1}
+					{"automation-science-pack", 1},
+					{"logistic-science-pack", 1}
 				},
 				time = 45
 			},
@@ -672,9 +672,9 @@ else
 				-- count = 1,
 				ingredients = 
 				{
-					{"science-pack-1", 1},
-					{"science-pack-2", 1},
-					{"science-pack-3", 1}
+					{"automation-science-pack", 1},
+					{"logistic-science-pack", 1},
+					{"chemical-science-pack", 1}
 				},
 				time = 45
 			},
@@ -699,9 +699,9 @@ else
 				-- count = 1,
 				ingredients = 
 				{
-					{"science-pack-1", 1},
-					{"science-pack-2", 1},
-					{"science-pack-3", 1}
+					{"automation-science-pack", 1},
+					{"logistic-science-pack", 1},
+					{"chemical-science-pack", 1}
 				},
 				time = 45
 			},
@@ -726,10 +726,10 @@ else
 				-- count = 1,
 				ingredients = 
 				{
-					{"science-pack-1", 2},
-					{"science-pack-2", 2},
-					{"science-pack-3", 2},
-					{"high-tech-science-pack", 1}
+					{"automation-science-pack", 2},
+					{"logistic-science-pack", 2},
+					{"chemical-science-pack", 2},
+					{"space-science-pack", 1}
 				},
 				time = 45
 			},
@@ -754,11 +754,11 @@ else
 				-- count = 1,
 				ingredients = 
 				{
-					{"science-pack-1", 2},
-					{"science-pack-2", 2},
-					{"science-pack-3", 2},
+					{"automation-science-pack", 2},
+					{"logistic-science-pack", 2},
+					{"chemical-science-pack", 2},
 					{"production-science-pack", 1},
-					{"high-tech-science-pack", 1}
+					{"space-science-pack", 1}
 				},
 				time = 45
 			},

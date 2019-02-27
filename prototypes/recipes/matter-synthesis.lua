@@ -10,7 +10,7 @@ data:extend({
 			{type="fluid", name="strange-matter", amount=.2}
 		},
 		subgroup = "synthesis",
-		result= "raw-wood",
+		result= "wood",
 		allow_as_intermediate = false
 	},
 	{

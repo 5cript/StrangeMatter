@@ -17,9 +17,9 @@ if not settings["strange-matter-cheap-research"] then
 				{
 					{"high-tech-science-pack", 2},
 					{"production-science-pack", 1},
-					{"science-pack-1", 1},
-					{"science-pack-2", 1},
-					{"science-pack-3", 1}
+					{"automation-science-pack", 1},
+					{"logistic-science-pack", 1},
+					{"chemical-science-pack", 1}
 					
 				},
 				time = 30
@@ -98,9 +98,9 @@ else
 				ingredients = 
 				{
 					{"production-science-pack", 1},
-					{"science-pack-1", 1},
-					{"science-pack-2", 1},
-					{"science-pack-3", 1}
+					{"automation-science-pack", 1},
+					{"logistic-science-pack", 1},
+					{"chemical-science-pack", 1}
 					
 				},
 				time = 30

@@ -21,7 +21,7 @@ function fabricatorpipepictures()
     {
       filename = "__StrangeMatter__/graphics/entity/matter-fabricator/pipe-south.png",
       priority = "extra-high",
-      width = 41,
+      width = 40,
       height = 24,
       shift = {0.0342, -0.838}
     },
