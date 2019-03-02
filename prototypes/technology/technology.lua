@@ -230,13 +230,11 @@ if not settings["strange-matter-cheap-research"].value then
 				-- count = 1,
 				ingredients = 
 				{
-					{"space-science-pack", 2},
+					{"space-science-pack", 1},
 					{"automation-science-pack", 1},
 					{"logistic-science-pack", 1},
 					{"chemical-science-pack", 1},
-					{"production-science-pack", 1},
-					{"space-science-pack", 1}
-					
+					{"production-science-pack", 1}					
 				},
 				time = 30
 			},
