@@ -1,6 +1,6 @@
 local settings = settings["startup"]
 
-if not settings["strange-matter-cheap-research"].value then
+if not settings["strange-matter-cheap-research"].value and not settings["disable-mod"].value then
 	-- DEFAULT RECIPES
 	data:extend({
 		{
@@ -386,7 +386,7 @@ if not settings["strange-matter-cheap-research"].value then
 			order = "e-g-e"
 		}
 	})
-else
+elseif not settings["disable-mod"].value then
 	-- EASY RECIPES
 	data:extend({
 		{

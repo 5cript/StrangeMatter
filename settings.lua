@@ -12,5 +12,11 @@ data:extend({
 		name = "strange-matter-cheap-research",
 		setting_type = "startup",
         default_value = false
-    }
+    },
+	{
+		type = "bool-setting",
+		name = "disable-mod",
+		setting_type = "startup",
+		default_value = false
+	}
 })
